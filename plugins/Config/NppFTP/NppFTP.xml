@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <NppFTP defaultCache="%CONFIGDIR%\Cache\%USERNAME%@%HOSTNAME%" outputShown="1" windowRatio="0.5" clearCache="0" clearCachePermanent="0">
     <Profiles>
-        <Profile name="dbl" hostname="szpadlic.bdl.pl" port="21" username="szpadlic" password="" askPassword="1" timeout="30" securityMode="0" transferMode="0" connectionMode="0" dataPortMin="10000" dataPortMax="32000" listParams="" initialDir="" keyFile="" passphrase="" useAgent="0" acceptedMethods="1">
+        <Profile name="dbl" hostname="szpadlic.bdl.pl" port="21" username="szpadlic" password="" askPassword="1" timeout="0" securityMode="0" transferMode="0" connectionMode="0" dataPortMin="10000" dataPortMax="32000" listParams="" initialDir="" keyFile="" passphrase="" askPassphrase="0" useAgent="0" acceptedMethods="1">
             <Cache />
             <FileTypes asciiTypes="" binaryTypes="" />
         </Profile>
-        <Profile name="google" hostname="uploads.google.com" port="21" username="meble24h" password="27CD0778B33B00E6F30302C936DD6C4DD3" askPassword="0" timeout="30" securityMode="0" transferMode="0" connectionMode="0" dataPortMin="10000" dataPortMax="32000" listParams="" initialDir="" keyFile="" passphrase="" useAgent="0" acceptedMethods="1">
+        <Profile name="google" hostname="uploads.google.com" port="21" username="meble24h" password="27CD0778B33B00E6F30302C936DD6C4DD3" askPassword="0" timeout="0" securityMode="0" transferMode="0" connectionMode="0" dataPortMin="10000" dataPortMax="32000" listParams="" initialDir="" keyFile="" passphrase="" askPassphrase="0" useAgent="0" acceptedMethods="1">
             <Cache />
             <FileTypes asciiTypes="" binaryTypes="" />
         </Profile>

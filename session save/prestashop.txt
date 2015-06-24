@@ -1,0 +1,14 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="5">
+            <File firstVisibleLine="23" xOffset="0" scrollWidth="24472" startPos="1360" endPos="1320" selMode="0" lang="HTML" encoding="-1" filename="D:\allegro\new  1.html" backupFilePath="" originalFileLastModifTimestamp="1432889765" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="24472" startPos="70" endPos="64" selMode="0" lang="CSS" encoding="-1" filename="D:\wamp\www\prestashop\modules\contentbox\content\content.css" backupFilePath="" originalFileLastModifTimestamp="1432568021" />
+            <File firstVisibleLine="2448" xOffset="0" scrollWidth="24472" startPos="99955" endPos="99955" selMode="0" lang="PHP" encoding="-1" filename="D:\wamp\www\prestashop\controllers\admin\AdminProductsController.php" backupFilePath="" originalFileLastModifTimestamp="1435151417">
+                <Mark line="2464" />
+            </File>
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="24472" startPos="1110" endPos="1110" selMode="0" lang="Zwyk&#x0142;y tekst" encoding="-1" filename="D:\wamp\www\prestashop\panel\themes\default\template\helpers\list\list_action_preview.tpl" backupFilePath="" originalFileLastModifTimestamp="1435149365" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="24472" startPos="0" endPos="0" selMode="0" lang="Zwyk&#x0142;y tekst" encoding="-1" filename="D:\wamp\www\prestashop\panel\themes\default\template\helpers\list\list_action_edit.tpl" backupFilePath="" originalFileLastModifTimestamp="1432568497" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>

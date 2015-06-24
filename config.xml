@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="yes" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="394" y="160" width="1347" height="692" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="8" y="33" width="1876" height="415" isMaximized="yes" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -80,7 +80,7 @@
         <GUIConfig name="SmartHighLightCaseSensitive">no</GUIConfig>
         <GUIConfig name="TagsMatchHighLight" TagAttrHighLight="yes" HighLightNonHtmlZone="no">yes</GUIConfig>
         <GUIConfig name="DetectEncoding">yes</GUIConfig>
-        <GUIConfig name="auto-insert" parentheses="no" brackets="yes" curlyBrackets="yes" quotes="no" doubleQuotes="no" htmlXmlTag="yes" />
+        <GUIConfig name="auto-insert" parentheses="no" brackets="yes" curlyBrackets="yes" quotes="no" doubleQuotes="no" htmlXmlTag="no" />
         <GUIConfig name="MenuBar">show</GUIConfig>
         <GUIConfig name="Caret" width="1" blinkRate="250" />
         <GUIConfig name="ScintillaGlobalSettings" enableMultiSelection="no" />
@@ -91,10 +91,11 @@
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" />
         <GUIConfig name="DockingManager" leftWidth="200" rightWidth="661" topHeight="200" bottomHeight="200">
             <FloatingWindow cont="4" x="39" y="109" width="531" height="364" />
+            <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="42051" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="99" curr="3" prev="-1" isVisible="no" />
             <PluginDlg pluginName="NppConverter.dll" id="3" curr="4" prev="0" isVisible="no" />
-            <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="no" />
             <ActiveTabs cont="0" activeTab="-1" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
@@ -102,46 +103,50 @@
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="yes" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+        <Path name="D:\wamp\www\prestashop" />
+        <Path name="D:\wamp\www\prestashop\modules\productscategory" />
+        <Path name="D:\wamp\www\blog" />
+        <Path name="D:\wamp\www\Hihair.pl" />
         <Path name="D:\wamp\www" />
         <Filter name="*.*" />
-        <Find name="index.html" />
-        <Find name="Olivia" />
-        <Find name="Resistant &amp; Soft" />
-        <Find name="Analytics" />
-        <Find name="Google_AnalyticsService" />
-        <Find name="Google_Service_Content_Product()" />
-        <Find name="--&gt;?&gt;" />
-        <Find name="&lt;?php//&lt;!--" />
-        <Find name="&lt;php" />
-        <Find name="\&apos;;?&gt;" />
-        <Replace name="&amp;amp;" />
-        <Replace name="?&gt;" />
-        <Replace name="&lt;?php//" />
-        <Replace name="&lt;?php" />
-        <Replace name=";?&gt;" />
-        <Replace name="&lt;?php$" />
-        <Replace name="\&apos;;?&gt;" />
-        <Replace name="&lt;php$m=\&apos;" />
-        <Replace name="&lt;php$m=&apos;" />
-        <Replace name="&apos;;?&gt;" />
+        <Find name="border: 1px" />
+        <Find name="div" />
+        <Find name="/data/include/cms/grafiki/" />
+        <Find name="szary_podstawa" />
+        <Find name="granatowy_podstawa" />
+        <Find name="czerwony_podstawa" />
+        <Find name="czarny_podstawa" />
+        <Find name="bialy_podstawa" />
+        <Find name="podstawy_barber/" />
+        <Find name="ramy/" />
+        <Replace name="border: 0px" />
+        <Replace name="a" />
+        <Replace name="/data/grafiki/" />
+        <Replace name="blat_marmur" />
+        <Replace name="blat_granit" />
+        <Replace name="blat_drewno" />
+        <Replace name="9_venge" />
+        <Replace name="3_buk" />
+        <Replace name="2_orzech" />
+        <Replace name="barber_konsoleta/" />
     </FindHistory>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="C:\Users\admin\Desktop\kampania_II.xml" />
-        <File filename="D:\wamp\www\htdocs\home\index.php" />
-        <File filename="C:\Users\admin\Desktop\example_feed.xml" />
-        <File filename="D:\wamp\www\htdocs\repo\README.md" />
-        <File filename="D:\wamp\www\htdocs\tag\tag_cloud.css" />
-        <File filename="D:\wamp\www\htdocs\tag\meta5.html" />
-        <File filename="C:\Users\admin\Desktop\Plik danych.xml" />
-        <File filename="D:\wamp\www\htdocs\tag\not\css\style.php" />
-        <File filename="D:\wamp\www\htdocs\tag\not\css\style.css" />
-        <File filename="D:\wamp\www\htdocs\tag\not\index.php" />
-        <File filename="D:\wamp\www\poradnik\.htaccess przekierowanie" />
-        <File filename="C:\Users\admin\.gitconfig" />
-        <File filename="D:\Programy\Notepad++\session.xml" />
-        <File filename="D:\wamp\www\htdocs\repo\index.php" />
-        <File filename="C:\Users\admin\.ssh\id_rsa.pub" />
+        <File filename="D:\wamp\www\prestashop\data\ayala\html\ayala_skaje_barber.html" />
+        <File filename="D:\wamp\www\prestashop\modules\contentbox\content\ayala.js" />
+        <File filename="D:\wamp\www\prestashop\data\mdm\html\mdm_podstawy_x.html" />
+        <File filename="D:\wamp\www\prestashop\data\ayala\html\ayala_podstawa_barber.html" />
+        <File filename="D:\wamp\www\prestashop\.htaccess_off" />
+        <File filename="D:\wamp\www\prestashop\.htaccess" />
+        <File filename="D:\wamp\www\prestashop\pdf\.htaccess" />
+        <File filename="D:\wamp\www\prestashop\pdf\delivery-slip.tpl" />
+        <File filename="D:\wamp\www\prestashop\pdf\invoice.tax-tab.tpl" />
+        <File filename="D:\allegro\new  2.html" />
+        <File filename="D:\wamp\www\prestashop\controllers\admin\AdminProductsController.php" />
+        <File filename="D:\allegro\new  4.php" />
+        <File filename="D:\allegro\new  3.php" />
+        <File filename="D:\allegro\new  2.php" />
+        <File filename="D:\allegro\new.html" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
