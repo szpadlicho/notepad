@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="yes" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="8" y="33" width="1876" height="415" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="34" y="517" width="1876" height="415" isMaximized="yes" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -89,64 +89,69 @@
         <GUIConfig name="stylerTheme" path="D:\Programy\Notepad++\stylers.xml" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" />
-        <GUIConfig name="DockingManager" leftWidth="200" rightWidth="661" topHeight="200" bottomHeight="200">
+        <GUIConfig name="DockingManager" leftWidth="200" rightWidth="156" topHeight="200" bottomHeight="290">
             <FloatingWindow cont="4" x="39" y="109" width="531" height="364" />
-            <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="no" />
-            <PluginDlg pluginName="Notepad++::InternalFunction" id="42051" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="42051" curr="1" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="NppFTP.dll" id="0" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="NppFTP.dll" id="99" curr="3" prev="-1" isVisible="no" />
             <PluginDlg pluginName="NppConverter.dll" id="3" curr="4" prev="0" isVisible="no" />
             <ActiveTabs cont="0" activeTab="-1" />
-            <ActiveTabs cont="1" activeTab="-1" />
+            <ActiveTabs cont="1" activeTab="0" />
             <ActiveTabs cont="2" activeTab="-1" />
             <ActiveTabs cont="3" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="yes" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="yes" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+        <Path name="D:\wamp\www\twojewlosy1" />
         <Path name="D:\wamp\www\prestashop" />
         <Path name="D:\wamp\www\prestashop\modules\productscategory" />
         <Path name="D:\wamp\www\blog" />
         <Path name="D:\wamp\www\Hihair.pl" />
         <Path name="D:\wamp\www" />
         <Filter name="*.*" />
-        <Find name="border: 1px" />
-        <Find name="div" />
-        <Find name="/data/include/cms/grafiki/" />
-        <Find name="szary_podstawa" />
-        <Find name="granatowy_podstawa" />
-        <Find name="czerwony_podstawa" />
-        <Find name="czarny_podstawa" />
-        <Find name="bialy_podstawa" />
-        <Find name="podstawy_barber/" />
-        <Find name="ramy/" />
-        <Replace name="border: 0px" />
-        <Replace name="a" />
-        <Replace name="/data/grafiki/" />
-        <Replace name="blat_marmur" />
-        <Replace name="blat_granit" />
-        <Replace name="blat_drewno" />
-        <Replace name="9_venge" />
-        <Replace name="3_buk" />
-        <Replace name="2_orzech" />
-        <Replace name="barber_konsoleta/" />
+        <Filter name="*.tpl" />
+        <Find name="100.00 kg" />
+        <Find name="1000.00 kg" />
+        <Find name='width=&quot;50%&quot;' />
+        <Find name='&lt;div id=&quot;mdm_podstawy_x&quot;&gt;&lt;/div&gt;&#x000D;&#x000A;&lt;/div&gt;&#x000D;&#x000A;&lt;div class=&quot;obj011&quot;&gt;' />
+        <Find name=";" />
+        <Find name="&lt;/br /&gt;" />
+        <Find name="initPageHeaderToolbar()" />
+        <Find name="fotel fryzjerski" />
+        <Find name="fotel " />
+        <Find name='&lt;span style=&quot;font-family: verdana; font-size: small;&quot;&gt;' />
+        <Replace name="10 kg" />
+        <Replace name='width=&quot;30%&quot;' />
+        <Replace name="&lt;br /&gt;" />
+        <Replace name='&quot;;&quot;' />
+        <Replace name="l_des001" />
+        <Replace name="251, 154, 197" />
+        <Replace name="171, 110, 224" />
+        <Replace name="#FB9AC5;" />
+        <Replace name="#AB6EE0;" />
+        <Replace name="&lt;/p&gt;&lt;/li&gt;" />
     </FindHistory>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="D:\wamp\www\prestashop\data\ayala\html\ayala_skaje_barber.html" />
-        <File filename="D:\wamp\www\prestashop\modules\contentbox\content\ayala.js" />
-        <File filename="D:\wamp\www\prestashop\data\mdm\html\mdm_podstawy_x.html" />
-        <File filename="D:\wamp\www\prestashop\data\ayala\html\ayala_podstawa_barber.html" />
-        <File filename="D:\wamp\www\prestashop\.htaccess_off" />
-        <File filename="D:\wamp\www\prestashop\.htaccess" />
-        <File filename="D:\wamp\www\prestashop\pdf\.htaccess" />
-        <File filename="D:\wamp\www\prestashop\pdf\delivery-slip.tpl" />
-        <File filename="D:\wamp\www\prestashop\pdf\invoice.tax-tab.tpl" />
-        <File filename="D:\allegro\new  2.html" />
-        <File filename="D:\wamp\www\prestashop\controllers\admin\AdminProductsController.php" />
-        <File filename="D:\allegro\new  4.php" />
-        <File filename="D:\allegro\new  3.php" />
-        <File filename="D:\allegro\new  2.php" />
-        <File filename="D:\allegro\new.html" />
+        <File filename="D:\wamp\www\prestashop\data\panda\html\panda_podstawy_x_g.html" />
+        <File filename="D:\wamp\www\prestashop\data\panda\html\panda_skaje_new.html" />
+        <File filename="D:\wamp\www\prestashop\data\panda\html\panda_obudowa.html" />
+        <File filename="C:\ProgramData\InsERT\KasiarzGT\SERVER\INSERTGT\Firma_Handlowa_BOSE55\prog_kom.cfg" />
+        <File filename="C:\ProgramData\InsERT\KasiarzGT\SERVER\INSERTGT\Firma_Handlowa_BOSE55\ster_uni.xml" />
+        <File filename="C:\ProgramData\InsERT\KasiarzGT\SERVER\INSERTGT\Firma_Handlowa_BOSE55\raport.xml" />
+        <File filename="D:\wamp\www\prestashop\data\panda\html\panda_podstawy_x.html" />
+        <File filename="D:\allegro\allegro_meble24h_com_pl\new  7.html" />
+        <File filename="D:\allegro\allegro_meble24h_com_pl\new  6.html" />
+        <File filename="C:\Users\admin\Desktop\Piotrek\ceny wystawa\change.php" />
+        <File filename="D:\wamp\www\twojewlosy1_backup\2016_05_30\twojewlosy\config\config.inc.php" />
+        <File filename="D:\wamp\www\twojewlosy1_backup\2016_05_30\twojewlosy\config\settings.inc.php" />
+        <File filename="D:\wamp\www\twojewlosy\modules\contentbox\content\custome.css" />
+        <File filename="D:\wamp\www\twojewlosy\modules\contentbox\content\made_in_natura.css" />
+        <File filename="C:\Users\admin\Desktop\modeliki-model.txt" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
